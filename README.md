@@ -43,6 +43,18 @@
 ![image](https://user-images.githubusercontent.com/103019032/162380530-ae6c31cd-9b57-47b5-9811-419bf8bdc4df.png)
  - #### The command to delete a user name. 
  ![image](https://user-images.githubusercontent.com/103019032/162381069-6e26d25c-e821-427f-9565-d5a7cf00780b.png)
+## *Set Linux file system permissions on files*
+- #### using ls -l command we can see permission.
+ ![image](https://user-images.githubusercontent.com/103019032/162384632-6e5ba402-d2b5-43c5-b794-d9a6f4a86c9b.png)
+- #### using chmod 777 command, give all the permission like read,write and execute.
+![image](https://user-images.githubusercontent.com/103019032/162385099-2d8db6a5-0a12-4797-9d87-bd8ab66c41d3.png)
+- #### Removing all permission  like read,write and execute from groupuser and other in newfile1
+![image](https://user-images.githubusercontent.com/103019032/162385761-54a190a5-945b-4347-ac9f-07afedf1abcf.png)
+- #### Giving all permission to user, read write permission to group ,and read permission to other to newfile.txt.
+![image](https://user-images.githubusercontent.com/103019032/162386451-e19f29e9-9399-4871-b881-e56563e97e30.png)
+
+
+
 
 
 
