@@ -34,6 +34,15 @@
 ![image](https://user-images.githubusercontent.com/103019032/162377904-88ef65c6-9626-4566-8ef0-4aea53ea2231.png)
 - #### The command to add a user. useradd command adds a new user to the directory.
 ![image](https://user-images.githubusercontent.com/103019032/162378401-3c0919f3-c005-4b9e-9897-da1e1f3dc26a.png)
+- #### Using passwd command to assign a password to a user.
+![image](https://user-images.githubusercontent.com/103019032/162379207-79036a4e-cb2e-49d8-bb77-ce6a8495f967.png)
+- #### Accessing a user configuration file.  
+  username : x : user id : user group id : : /home/username : /bin/bash 
+![image](https://user-images.githubusercontent.com/103019032/162379535-5a59042c-6230-4565-91c4-7c44e0d21351.png)
+- #### The command to change the user ID for a user.  
+![image](https://user-images.githubusercontent.com/103019032/162380530-ae6c31cd-9b57-47b5-9811-419bf8bdc4df.png)
+ - #### The command to delete a user name. 
+ ![image](https://user-images.githubusercontent.com/103019032/162381069-6e26d25c-e821-427f-9565-d5a7cf00780b.png)
 
 
 
