@@ -76,7 +76,51 @@
 ![image](https://user-images.githubusercontent.com/103019032/162414520-5f9415d5-8a2e-4d4d-a6c7-da17c44644df.png)
 - #### Installion of nginx using sudo apt install nginx command
 ![image](https://user-images.githubusercontent.com/103019032/162413516-0a18db20-7684-422b-948a-1b5fa6fbbd5d.png)
-
+## ** File system in Linux
+- #### df command reports file system disk space usage, to include the file system type on a particular disk partition, use the -T
+![image](https://user-images.githubusercontent.com/103019032/162564733-3da75e66-04f7-4c1e-b3e3-264c5443eb19.png)
+- #### fsck command is used to check and optionally repair Linux file systems, it can also print the file system type on specified disk partitions.
+- #### The flag -N disables checking of file system for errors, it just shows what would be done.
+![image](https://user-images.githubusercontent.com/103019032/162564968-7582a092-6582-4c2a-8d70-5e472d243af3.png)
+- #### lsblk command displays block devices, when used with the -f option, it prints file system type on partitions as well
+![image](https://user-images.githubusercontent.com/103019032/162565071-16463303-e90b-4be3-8ffd-3a5e7fab6ba9.png)
+- #### mount command is used to mount a file system in Linux, it can also be used to mount an ISO image, mount remote Linux filesystem and so much more.
+![image](https://user-images.githubusercontent.com/103019032/162565254-677f0b1e-479a-4bf9-9234-e23e7f4c7f68.png)
+- #### blkid command is used to find or print block device properties
+![image](https://user-images.githubusercontent.com/103019032/162565445-77f3cd1f-0026-47bb-beea-985711423d22.png)
+- #### blkid command is used to find or print block device properties
+![image](https://user-images.githubusercontent.com/103019032/162566087-edce69cd-82a0-4ccd-b83b-d590bd2632a3.png)
+- #### file command identifies file type, the -s flag enables reading of block or character files and -L enables following of symlinks
+![image](https://user-images.githubusercontent.com/103019032/162566234-67d7b25f-b6ed-4dc0-a027-bb3c8c5e6cf9.png)
+- #### The /etc/fstab is a static file system info (such as mount point, file system type, mount options etc) file
+![image](https://user-images.githubusercontent.com/103019032/162566531-bb5618c0-31b8-4e1c-a42e-9c89fd25dabe.png)
+#### **Hugepages in Linux**
+- #### grep Huge /proc/meminfo command to check current huge pages details.you can see the one-page size is 2MB Hugepagesize and a total of 0 pages on the system      HugePages_Total. This huge page size can be increased from 2MB to max 1GB.
+![image](https://user-images.githubusercontent.com/103019032/162566792-427227f9-0e60-449d-b4af-0ac020ceb9aa.png)
+## Swap in Linux
+- #### cat command to see total and used swap size
+![image](https://user-images.githubusercontent.com/103019032/162568338-dbe13db5-b117-4697-a873-019cd428beca.png)
+- #### We can check the total size and free memory in swap using grep Swap /proc/meminfo
+![image](https://user-images.githubusercontent.com/103019032/162568426-88131fcd-a0e5-4ca7-8e52-2b16203d35e3.png)
+- #### Look for swap space in Linux using swapon command
+![image](https://user-images.githubusercontent.com/103019032/162568650-2fe0b936-f4e3-463e-a8b5-03ea416d113d.png)
+- #### Use free command to monitor swap space usage
+![image](https://user-images.githubusercontent.com/103019032/162568701-e1817c3d-84f9-4638-8f42-255c9ac6ec56.png)
+- #### See swap size in Linux using vmstat command
+![image](https://user-images.githubusercontent.com/103019032/162568899-756f1b8e-d91c-4125-9dc4-6cb17ad8c901.png)
+## grep command in linux
+- #### Case insensitive search : The -i option enables to search for a string case insensitively in the given file. It matches the words like “UNIX”, “Unix”, “unix”. 
+![image](https://user-images.githubusercontent.com/103019032/162569419-b6564a1b-ec5d-4f99-9ec5-c5facaf303f1.png)
+- #### Displaying the count of number of matches : We can find the number of lines that matches the given string/pattern 
+![image](https://user-images.githubusercontent.com/103019032/162569635-ff325978-12bf-4a17-a596-c2f1fc024786.png)
+- #### Checking for the whole words in a file 
+![image](https://user-images.githubusercontent.com/103019032/162569784-d473ca2d-afd3-48e9-85d9-1b6c7b604c33.png)
+- #### Displaying only the matched pattern 
+![image](https://user-images.githubusercontent.com/103019032/162569875-840564b4-dc0d-41ad-8f1b-064755bbc02a.png)
+- #### Inverting the pattern match : You can display the lines that are not matched with the specified search string pattern using the -v option
+![image](https://user-images.githubusercontent.com/103019032/162570566-3418c567-c65f-4c1a-a4e6-1ec522043dfe.png)
+- #### Replacing all the occurrence of the pattern in a line
+![image](https://user-images.githubusercontent.com/103019032/162572544-90186ff3-346d-4df3-b800-48089f563be9.png)
 
 
 
