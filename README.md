@@ -1,7 +1,7 @@
 # Bash_shell-commands
 ## Create,Copy, move,delete, and organize files from the bash shell
 - #### How to create directory in Linux commands,We used<ins> mkdir</ins> command.
-![image](https://user-images.githubusercontent.com/103019032/162363772-e377e93d-41fb-4e36-adbd-0af6578393a3.png)
+![image](https://user-images.githubusercontent.com/103019032/162572847-05bf4cb4-4572-4149-9174-6e21b846a7f0.png)
 - #### Create two files(new_file1,new_file2) inside new_folder.We use <ins>touch</ins> command.
 ![image](https://user-images.githubusercontent.com/103019032/162367280-c51b5937-5431-4819-ae83-3b2be28bad9f.png)
 - #### Now copy files from new_folder to new_folder2.We uses <ins>cp</ins> command.
