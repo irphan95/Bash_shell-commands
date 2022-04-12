@@ -1,4 +1,4 @@
-# Bash_shell-commands
+# Bash_shell-commands used
 ## Create,Copy, move,delete, and organize files from the bash shell
 - #### How to create directory in Linux commands,We used<ins> mkdir</ins> command.
 ![image](https://user-images.githubusercontent.com/103019032/162572847-05bf4cb4-4572-4149-9174-6e21b846a7f0.png)
@@ -121,8 +121,6 @@
 ![image](https://user-images.githubusercontent.com/103019032/162570566-3418c567-c65f-4c1a-a4e6-1ec522043dfe.png)
 - #### Replacing all the occurrence of the pattern in a line
 ![image](https://user-images.githubusercontent.com/103019032/162572544-90186ff3-346d-4df3-b800-48089f563be9.png)
-
-
 
 
 
